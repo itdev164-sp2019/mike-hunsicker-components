@@ -154,30 +154,6 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "mikehunsicker-matc.itdev164-prep/masthead@1.0.1": {
-        "files": [
-            {
-                "relativePath": "src/components/Masthead/Masthead.js",
-                "test": false,
-                "name": "Masthead.js"
-            }
-        ],
-        "mainFile": "src/components/Masthead/Masthead.js",
-        "origin": "AUTHORED",
-        "exported": true
-    },
-    "mikehunsicker-matc.itdev164-prep/masthead/index@1.0.1": {
-        "files": [
-            {
-                "relativePath": "src/components/Masthead/index.js",
-                "test": false,
-                "name": "index.js"
-            }
-        ],
-        "mainFile": "src/components/Masthead/index.js",
-        "origin": "AUTHORED",
-        "exported": true
-    },
     "mikehunsicker-matc.itdev164-prep/test@0.0.1": {
         "files": [
             {
@@ -199,6 +175,30 @@
             }
         ],
         "mainFile": "src/components/Test/index.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "mikehunsicker-matc.itdev164-prep/masthead@1.0.2": {
+        "files": [
+            {
+                "relativePath": "src/components/Masthead/Masthead.js",
+                "test": false,
+                "name": "Masthead.js"
+            }
+        ],
+        "mainFile": "src/components/Masthead/Masthead.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "mikehunsicker-matc.itdev164-prep/masthead/index@1.0.2": {
+        "files": [
+            {
+                "relativePath": "src/components/Masthead/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/Masthead/index.js",
         "origin": "AUTHORED",
         "exported": true
     },
