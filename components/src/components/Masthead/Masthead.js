@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Box } from 'rebass'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+import { Link } from 'rebass'
 
 const Outer = styled(Box)`
   height: ${props => props.height};

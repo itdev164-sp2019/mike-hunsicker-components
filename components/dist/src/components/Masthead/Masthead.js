@@ -21,8 +21,6 @@ var _styledComponents = require('styled-components');
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _gatsby = require('gatsby');
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
@@ -39,7 +37,7 @@ var Masthead = exports.Masthead = function Masthead(_ref) {
     Outer,
     { height: height },
     _react2.default.createElement(
-      _gatsby.Link,
+      _rebass.Link,
       {
         to: '/',
         style: {
