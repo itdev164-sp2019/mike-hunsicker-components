@@ -1,15 +1,16 @@
-import React from 'react';
-import { darken } from 'polished';
-import mastheadImage from './images/styled-components.png';
-import { Search } from 'styled-icons/feather';
+import React from 'react'
+import { darken } from 'polished'
+import mastheadImage from './images/styled-components.png'
+import { Menu, Search } from 'styled-icons/feather'
 
 const images = {
   mastheadImage
-};
+}
 
 const icons = {
+  Menu: <Menu />,
   Search: <Search />
-};
+}
 
 const theme = {
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
@@ -48,7 +49,7 @@ const theme = {
       hint: 'hsl(208, 13%, 75%)'
     }
   }
-};
+}
 
 const defaults = {
   button: {
@@ -67,7 +68,7 @@ const defaults = {
   text: {
     lineHeight: theme.lineHeights.copy
   }
-};
+}
 
 const variants = {
   button: {
@@ -108,7 +109,7 @@ const variants = {
       color: theme.colors.primary.contrastText
     }
   }
-};
+}
 
-const Gray = { ...theme, defaults, variants, images, icons };
-export { Gray };
+const Gray = { ...theme, defaults, variants, images, icons }
+export { Gray }
