@@ -1,33 +1,21 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Box } from 'rebass'
-import styled from 'styled-components'
-import { Link } from 'rebass'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Box } from 'rebass';
+import styled from 'styled-components';
 
 const Outer = styled(Box)`
   height: ${props => props.height};
   width: 100%;
-  background-color: rebeccapurple;
-  margin-bottom: 1.45rem;
-`
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+`;
 
-export const Masthead = ({ height, siteTitle }) => {
-  return (
-    <Outer height={height}>
-      <Link
-        href="/"
-        style={{
-          color: `white`,
-          textDecoration: `none`
-        }}
-      >
-        {siteTitle}
-      </Link>
-    </Outer>
-  )
-}
+export const Masthead = ({ height, children }) => {
+  return <Outer height={height}>{children}</Outer>;
+};
 
 Masthead.propTypes = {
   height: PropTypes.string.isRequired,
-  siteTitle: PropTypes.string
-}
+  children: PropTypes.node.isRequired
+};
