@@ -1,14 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import {
-  BaseContainer,
-  Button,
-  Header,
-  Image,
-  Link,
-  Section
-} from '../../Element'
+import { Button, Header, Image, Link, Nav, Section } from '../../Element'
 import { MenuButton, SearchButton } from '../../Buttons'
 import { MediaQuery } from '../../MediaQuery'
 
@@ -24,8 +17,6 @@ Item.defaultProps = {
   my: 'auto',
   mr: 3
 }
-
-const Nav = props => <BaseContainer as="nav" {...props} />
 
 export const DefaultLayout = ({ image }) => (
   <StyledHeader flex alignItems="center" p={3}>
