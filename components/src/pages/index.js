@@ -3,6 +3,8 @@ import Layout from '../layouts/layout'
 import Image from '../gatsby-components/image'
 import SEO from '../gatsby-components/seo'
 
+import { TwitterShareButton } from '../components/SocialShareButton/TwitterShareButton'
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -12,6 +14,12 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <TwitterShareButton
+      addThisPubId="ra-5cafe669c8f719c4"
+      contentTitle="Fake title"
+      contentImage="http://placekitten.com/g/300/700"
+      contentDescription="Here is a kitten article!"
+    />
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

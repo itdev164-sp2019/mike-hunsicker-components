@@ -1,24 +1,24 @@
-import React from 'react';
-import { darken } from 'polished';
-import mastheadImage from './images/styled-components.png';
-import shareFacebookImage from './images/share_facebook.png';
-import shareTwitterImage from './images/share_twitter.png';
-import shareMoreImage from './images/share_more.png';
-import { Menu, Search } from 'styled-icons/feather';
+import React from 'react'
+import { darken } from 'polished'
+import mastheadImage from './images/styled-components.png'
+import shareFacebookImage from './images/share_facebook.png'
+import shareTwitterImage from './images/share_twitter.png'
+import shareMoreImage from './images/share_more.png'
+import { Menu, Search } from 'styled-icons/feather'
 
 const images = {
   mastheadImage,
   shareFacebookImage,
   shareTwitterImage,
   shareMoreImage
-};
+}
 
 const icons = {
   Menu: <Menu />,
   Search: <Search />
-};
+}
 
-const breakpoints = [576, 768, 900];
+const breakpoints = [576, 768, 900]
 
 const theme = {
   breakpoints: [...breakpoints],
@@ -70,7 +70,7 @@ const theme = {
     medium: 'all 0.6s ease-out',
     long: 'all 0.9s ease-out'
   }
-};
+}
 
 const defaults = {
   button: {
@@ -91,8 +91,14 @@ const defaults = {
   },
   text: {
     lineHeight: theme.lineHeights.copy
+  },
+  socialShareButton: {
+    img: {
+      width: '100px',
+      height: 'auto'
+    }
   }
-};
+}
 
 const variants = {
   button: {
@@ -151,7 +157,7 @@ const variants = {
       color: theme.colors.primary.contrastText
     }
   }
-};
+}
 
-const Gray = { ...theme, defaults, variants, images, icons };
-export { Gray };
+const Gray = { ...theme, defaults, variants, images, icons }
+export { Gray }
